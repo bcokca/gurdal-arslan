@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Gurdal Arslan - Assistant Professor | University of Hawaii</title>
+  <style>
+    :root {
+      --primary-color: #024731;
+      --secondary-color: #4a86e8;
+      --light-color: #f7f9fc;
+      --text-color: #333;
+      --accent-color: #ffd966;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--light-color);
+    }
+    
+    header {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .profile-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      margin: 0 2rem;
+    }
+    
+    .profile-info h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .profile-info h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-bottom: 1rem;
+    }
+    
+    nav {
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    nav ul li a {
+      display: block;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+    
+    section {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    h3 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+    
+    p {
+      margin-bottom: 1rem;
+    }
+    
+    .publication, .course {
+      margin-bottom: 1.5rem;
+    }
+    
+    .publication h4, .course h4 {
+      margin-bottom: 0.5rem;
+      color: var(--secondary-color);
+    }
+    
+    .publication .authors {
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+    
+    .publication .venue {
+      font-weight: 500;
+    }
+    
+    footer {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .contact-info {
+      margin-top: 1rem;
+    }
+    
+    .contact-info a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .profile-image {
+        margin-bottom: 1rem;
+      }
+      
+      .profile-info {
+        text-align: center;
+      }
+      
+      nav ul {
+        flex-direction: column;
+      }
+      
+      nav ul li {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile-container">
+      <img src="https://via.placeholder.com/200" alt="Dr. Gurdal Arslan" class="profile-image">
+      <div class="profile-info">
+        <h1>Dr. Gurdal Arslan</h1>
+        <h2>Assistant Professor | Department of Electrical Engineering</h2>
+        <p>University of Hawaii at Manoa</p>
+      </div>
+    </div>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="about">
+      <h3>About Me</h3>
+      <p>Welcome to my academic website. I am an Assistant Professor in the Department of Electrical Engineering at the University of Hawaii at Manoa. I received my Ph.D. in Electrical Engineering from XYZ University in 20XX.</p>
+      <p>My research focuses on optimization theory, game theory, and their applications to control systems and machine learning. I am particularly interested in developing algorithms for networked systems with multiple decision makers.</p>
+      <p>Prior to joining UH Manoa, I worked as a postdoctoral researcher at ABC University, where I collaborated on projects related to distributed optimization in smart grid systems.</p>
+    </section>
+    
+    <section id="research">
+      <h3>Research Interests</h3>
+      <ul>
+        <li>Game Theory and Multi-agent Systems</li>
+        <li>Convex and Non-convex Optimization</li>
+        <li>Control Theory</li>
+        <li>Machine Learning</li>
+        <li>Smart Grid and Energy Systems</li>
+      </ul>
+      <p>My research lab is actively seeking motivated graduate students. If you are interested in working with me, please send me an email with your CV and research interests.</p>
+    </section>
+    
+    <section id="publications">
+      <h3>Selected Publications</h3>
+      
+      <div class="publication">
+        <h4>A Game-Theoretic Approach to Distributed Optimization in Multi-agent Systems</h4>
+        <div class="authors">Arslan, G., Smith, J., & Johnson, K.</div>
+        <div class="venue">IEEE Transactions on Automatic Control, 2022</div>
+        <p>This paper presents a novel approach to solving distributed optimization problems in systems with multiple decision-makers using game-theoretic concepts.</p>
+      </div>
+      
+      <div class="publication">
+        <h4>Learning Nash Equilibria in Non-cooperative Games</h4>
+        <div class="authors">Arslan, G., & Brown, N.</div>
+        <div class="venue">Conference on Learning Theory (COLT), 2021</div>
+        <p>We develop an algorithm for learning Nash equilibria in non-cooperative games with provable convergence guarantees.</p>
+      </div>
+      
+      <div class="publication">
+        <h4>Distributed Resource Allocation in Smart Grid Systems</h4>
+        <div class="authors">Lee, R., Arslan, G., & Patel, S.</div>
+        <div class="venue">IEEE Transactions on Smart Grid, 2020</div>
+        <p>This work proposes a distributed algorithm for optimal resource allocation in smart grid systems with renewable energy sources.</p>
+      </div>
+      
+      <div class="publication">
+        <h4>Robust Control Design for Uncertain Systems with Applications to Renewable Energy Integration</h4>
+        <div class="authors">Arslan, G., & Chen, H.</div>
+        <div class="venue">American Control Conference, 2019</div>
+        <p>A framework for designing robust controllers for systems with uncertainty, with applications to renewable energy integration in power grids.</p>
+      </div>
+    </section>
+    
+    <section id="teaching">
+      <h3>Teaching</h3>
+      
+      <div class="course">
+        <h4>EE 416: Control Systems</h4>
+        <p>This course covers the fundamentals of linear control systems, including system modeling, stability analysis, and controller design.</p>
+      </div>
+      
+      <div class="course">
+        <h4>EE 621: Advanced Optimization Theory</h4>
+        <p>A graduate-level course on optimization theory, including convex optimization, duality theory, and algorithms for constrained optimization.</p>
+      </div>
+      
+      <div class="course">
+        <h4>EE 505: Game Theory for Engineers</h4>
+        <p>Introduction to game theory concepts with applications to engineering problems, including Nash equilibria, mechanism design, and learning in games.</p>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h3>Contact Information</h3>
+      <p><strong>Office:</strong> Holmes Hall 301, University of Hawaii at Manoa</p>
+      <p><strong>Address:</strong> 2540 Dole Street, Honolulu, HI 96822</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:garslan@hawaii.edu">garslan@hawaii.edu</a></p>
+        <p><strong>Phone:</strong> (808) 123-4567</p>
+        <p><strong>Office Hours:</strong> Monday and Wednesday, 2:00 PM - 4:00 PM, or by appointment</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Dr. Gurdal Arslan | University of Hawaii at Manoa</p>
+    <p>Last updated: August 2023</p>
+  </footer>
+
+  <script>
+    // Simple JavaScript for smooth scrolling to anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html> 
